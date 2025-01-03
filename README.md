@@ -22,9 +22,9 @@ pip install git+https://github.com/Mahmood-Anaam/violet.git
 
 #### Option 2: Clone Repository and Install in Editable Mode
 ```bash
-!git clone https://github.com/Mahmood-Anaam/violet.git
-%cd violet
-!pip install -e .
+git clone https://github.com/Mahmood-Anaam/violet.git
+cd violet
+pip install -e .
 ```
 
 #### Option 3: Use Conda Environment
@@ -32,9 +32,9 @@ pip install git+https://github.com/Mahmood-Anaam/violet.git
 conda env create -f environment.yml
 conda activate violet
 
-!git clone https://github.com/Mahmood-Anaam/violet.git
-%cd violet
-!pip install -e .
+git clone https://github.com/Mahmood-Anaam/violet.git
+cd violet
+pip install -e .
 ```
 
 ## Quickstart:
