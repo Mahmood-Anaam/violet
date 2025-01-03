@@ -1,6 +1,5 @@
 # Violet: Arabic Image Captioning
-
-**Violet** is a Python-based library designed for generating **Arabic image captions**. The pipeline leverages state-of-the-art transformer models, providing an easy-to-use interface for researchers and developers working on tasks such as image captioning and visual question answering (VQA).
+The `Violet` repository provides a framework for generating **Arabic image captions**. The pipeline leverages state-of-the-art transformer models, providing an easy-to-use interface for researchers and developers working on tasks such as image captioning and visual question answering (VQA).
 
 ## Features
 1. **Arabic Image Captioning**: Generate high-quality captions for images in Arabic.
@@ -8,24 +7,33 @@
 3. **Customizable for VQA**: Use extracted features and captions to build Arabic visual question-answering systems.
 4. **Mixed Input Support**: Handle batches of images in various formats, such as URLs, file paths, NumPy arrays, PyTorch tensors, and PIL Image objects.
 
-## How to Use Violet
 
-### Installation
+## Installation
 
+### Option 1: Install Directly via pip
 ```bash
-
 pip install git+https://github.com/Mahmood-Anaam/violet.git
-
 ```
 
-Clone the repository and install Violet in editable mode:
+### Option 2: Clone Repository and Install in Editable Mode
 ```bash
 !git clone https://github.com/Mahmood-Anaam/violet.git
 %cd violet
 !pip install -e .
 ```
 
-### Example Usage in Google Colab
+### Option 3: Use Conda Environment
+```bash
+conda env create -f environment.yml
+conda activate violet
+
+!git clone https://github.com/Mahmood-Anaam/violet.git
+%cd violet
+!pip install -e .
+```
+
+
+## Example Usage in Google Colab
 Interactive Jupyter notebooks are provided to demonstrate Violet's capabilities. You can open these notebooks in Google Colab:
 
 - [Image Captioning Demo](https://github.com/Mahmood-Anaam/violet/blob/main/notebooks/inference_demo.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mahmood-Anaam/violet/blob/main/notebooks/inference_demo.ipynb)
@@ -33,7 +41,7 @@ Interactive Jupyter notebooks are provided to demonstrate Violet's capabilities.
 
 
 
-### Pipeline Overview
+## Quick Start
 
 The Violet pipeline supports three main functionalities:
 
@@ -84,5 +92,4 @@ Generate captions based on precomputed visual features.
    for caption in captions:
      print(caption)
    ```
-## Contributions
-**Violet** is a library for Arabic image captioning and visual feature extraction, designed for tasks like image captioning and visual question answering (VQA). Contributions are welcome on the [GitHub Repository](https://github.com/Mahmood-Anaam/Violet).
+
