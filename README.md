@@ -4,7 +4,7 @@
 
 ## Overview
 
-The **Violet** repository provides a streamlined pipeline for generating **Arabic captions for images** using a pretrained transformer model. It simplifies the process of Arabic image captioning with minimal setup and configuration.
+Violet is a vision-language model designed to generate high-quality Arabic image captions. Built around a **Gemini Decoder** and a pretrained transformer, Violet bridges the gap between computer vision and natural language processing (NLP) for Arabic. The repository provides a simple, effective, and streamlined pipeline that can handle a variety of image formats and produce descriptive captions in Arabic with minimal effort.
 
 ## Key Features:
 
