@@ -19,7 +19,7 @@ This repository is built on the model proposed in the paper [Violet: A Vision-La
 
 #### Option 1: Install via `pip`
 ```bash
-pip install git+https://github.com/Mahmood-Anaam/violet.git
+pip install git+https://github.com/Mahmood-Anaam/violet.git --quiet
 ```
 
 #### Option 2: Clone Repository and Install in Editable Mode
