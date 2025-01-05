@@ -31,11 +31,10 @@ pip install -e .
 
 #### Option 3: Use Conda Environment
 ```bash
-conda env create -f environment.yml
-conda activate violet
-
 git clone https://github.com/Mahmood-Anaam/violet.git
 cd violet
+conda env create -f environment.yml
+conda activate violet
 pip install -e .
 ```
 
